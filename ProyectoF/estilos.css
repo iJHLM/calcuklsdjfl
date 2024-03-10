@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(sparkle.webp) no-repeat center center fixed;
+  background-size: cover;
+
+  border: 90%;
+  border-style: groove;
+  border-color: rgb(197, 120, 120);
+}
+
+button {
+  margin: 2%;
+  width: 23%;
+  height: 17%;
+  background-color: black;
+  color: red;
+  border-style: solid;
+  border-color: rgb(72, 21, 21);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 6%;
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+#ingreso1 {
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(72, 21, 21);
+  background-color: black;
+  color: red;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+
+  width: 25%;
+  padding-bottom: 3%;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 300%;
+  margin: 49px;
+}
+
+#ingreso2 {
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(72, 21, 21);
+  background-color: black;
+  color: red;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+
+  width: 25%;
+  padding-bottom: 3%;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 300%;
+  margin: 49px;
+}
+
+#Vresultado {
+  color: red;
+  background-color: black;
+  text-align: center;
+  margin: 4px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border: 10px;
+  border-color: red;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+}
+
+.resultadotext {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  text-align: center;
+  margin: 4px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border: 10px;
+  border-color: red;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+}

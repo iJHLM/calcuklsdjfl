@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiCalculadora</title>
+
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <input type="number" id="ingreso1" />
+    <input type="number" id="ingreso2" />
+    <h1 id="Vresultado">- - -</h1>
+
+    <div class="botonesfila1">
+      <button onclick="suma()">suma</button>
+      <button onclick="resta()">resta</button>
+      <button onclick="multiplica()">multiplica</button>
+    </div>
+    <div class="botonesfila2">
+      <button onclick="division()">divide</button>
+      <button onclick="raiz()">raiz&lpar;solo1digito&rpar;</button>
+      <button onclick="potencia()">potencia</button>
+    </div>
+    <div class="botonesfila3">
+      <button onclick="vabsoluto()">ValorAsoluto&lpar;solo1digito&rpar;</button>
+      <button onclick="random()">Random</button>
+      <br />
+    </div>
+    <h1 class="resultadotext">ResultadoAJ</h1>
+    <div class="botonesfila4">
+      <button onclick="redondear()">redondear</button>
+      <button onclick="floor()">floor</button>
+      <button onclick="ceil()">ceil</button>
+    </div>
+  </body>
+</html>
